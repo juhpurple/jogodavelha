@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: bisque;
+    margin: 0;
+  }
+  .quad {
+    text-align: center;
+    width: 50px;
+    background-color: lightgray;
+    display: inline-block; /*ficar em linha*/
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer; /*mostra o cursor de mao quando o mouse passa sobre os quad*/
+    color: lightgray;
+  }
+  .jogador,
+  .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  #reiniciar {
+    margin-top: 10px;
+    width: 10%;
+    height: 30px;
+    background-color: rgb(133, 127, 127);
+    cursor: pointer;
+  }
+
+  .ti {
+      background-color: #ebf2f2;
+      margin: 0;
+      height: 40px;
+      font-size: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: blueviolet;
+  }
+
+#temas {
+    background-color: rgb(186, 177, 212);
+    height: 50px;
+}
+#mu {
+    float: left;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 100px;
+    border: none;
+    background-color:rgb(186, 177, 212) ;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#opc {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    display:none;
+}
+.tema {
+    margin: 15px;
+}

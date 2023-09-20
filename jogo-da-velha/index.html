@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da velha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ti">jogos divertidos</div>
+    <div id="temas">
+        <Button id="mu" onclick="temas()">mudar tema</Button>
+    </div>
+    <div id="opc">
+        <button class="tema">tema1</button>
+        <button class="tema">tema2</button>
+        <button class="tema">tema3</button>
+    </div>
+  <h1>Jogo da velha</h1>
+
+  <!-- grade do jogo -->
+  <div>
+    <!-- linha 1 -->
+    <div id="1" class="quad" onclick="escolher(this.id)">-</div>
+    <div id="2" class="quad" onclick="escolher(this.id)">-</div>
+    <div id="3" class="quad" onclick="escolher(this.id)">-</div>
+  </div>
+
+  <div>
+    <!-- linha 2 -->
+    <div id="4" class="quad" onclick="escolher(this.id)">-</div>
+    <div id="5" class="quad" onclick="escolher(this.id)">-</div>
+    <div id="6" class="quad" onclick="escolher(this.id)">-</div>
+  </div>
+
+  <div>
+    <!-- linha 3 -->
+    <div id="7" class="quad" onclick="escolher(this.id)">-</div>
+    <div id="8" class="quad" onclick="escolher(this.id)">-</div>
+    <div id="9" class="quad" onclick="escolher(this.id)">-</div>
+  </div>
+
+  <!-- informação do jogador atual -->
+  <div class="jogador">
+    <label>Jogador: </label>
+    <label id="jogadorSelecionado"></label>
+  </div>
+
+  <!-- vencedor do jogo -->
+  <div class="vencedor">
+    <label>Vencedor: </label>
+    <label id="vencedorSelecionado"></label>
+  </div>
+
+  <!-- botão de reiniciar o jogo -->
+  <div>
+    <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
